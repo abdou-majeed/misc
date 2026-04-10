@@ -23,7 +23,7 @@ Tune the constants at the top of `main` to control the range and performance:
 
 | Variable     | Default       | Purpose                                      |
 |--------------|---------------|----------------------------------------------|
-| `N`          | 500,000,000   | Size of each chunk                           |
+| `N`          | 50,000,000   | Size of each chunk                           |
 | `MAX`        | 5             | Number of chunks (total range = MAX × N)     |
 | `K`          | 1,000,000     | Primes read per batch from earlier files      |
 | `STEPSIZE`   | 70            | Primes buffered per write                    |
