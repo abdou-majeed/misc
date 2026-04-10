@@ -15,11 +15,6 @@ The range is split into chunks of size N. The first chunk is sieved directly;
 each subsequent chunk reads primes from earlier files to exclude their multiples.
 Results are written to numbered files (`prime_numbers_0`, `prime_numbers_1`, …).
 
-### Dependencies
-
-Requires a local `utils` package (will be added later) that provides overflow-safe integer addition.
-Place it alongside the main file or see the source for details.
-
 ### Usage
 
     go run primes.go
@@ -35,7 +30,6 @@ Tune the constants at the top of `main` to control the range and performance:
 
 ### Roadmap
 
-- Inline or package the `utils` dependency so the project builds standalone.
 - Replace string concatenation with `bufio.Writer` for faster output.
 - Add a verification step (e.g. compare count against known prime-counting function values).
 
