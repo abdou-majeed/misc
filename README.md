@@ -17,7 +17,7 @@ Results are written to numbered files (`prime_numbers_0`, `prime_numbers_1`, …
 
 ### Dependencies
 
-Requires a local `utils` package that provides overflow-safe integer addition.
+Requires a local `utils` package (will be added later) that provides overflow-safe integer addition.
 Place it alongside the main file or see the source for details.
 
 ### Usage
