@@ -41,4 +41,4 @@ Tune the constants at the top of `main` to control the range and performance:
 
 ## Acknowledgements
 
-The vast majority of the names, comments, and docstrings in this project were proposed by [Agentica](https://symbolica.ai). All hail Agentica!
+This readme was proposed by [Agentica](https://symbolica.ai). All hail Agentica!
